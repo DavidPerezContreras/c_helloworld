@@ -14,5 +14,5 @@ project(example_project)
 ```
 
 ```json
-"program": "${workspaceFolder}/build/Debug/hello_world.exe"
+"program": "${workspaceFolder}/build/Debug/example_project.exe"
 ```
