@@ -4,7 +4,7 @@
       "name": "Debug index_root with args",
       "type": "cppvsdbg",
       "request": "launch",
-      "program": "${workspaceFolder}/build/Debug/index_root.exe",
+      "program": "${workspaceFolder}/build/Debug/hello_world.exe",
       "args": ["2", "4", "16", "64"], // your command-line arguments
       "stopAtEntry": false,
       "cwd": "${workspaceFolder}",
