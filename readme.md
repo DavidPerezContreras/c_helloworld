@@ -1,18 +1,5 @@
 # 📐  C Hello World
 
-A C hello world that causes a buffer overflow to test the runtime checks
+A C program that reads a line from the standard input, allocating memory dinamically as needed. After that, it shrinks the buffer to the minimum space required.
 
 ---
-
-### 🔧 Debugging with VS Code
-
-The `launch.json` file assumes your executable is named `hello_world.exe`.  
-If you change the project name in `CMakeLists.txt`, make sure to update the `"program"` path in `launch.json`:
-
-```cmake
-project(example_project)
-```
-
-```json
-"program": "${workspaceFolder}/build/Debug/example_project.exe"
-```
